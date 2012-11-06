@@ -131,7 +131,7 @@ window.onload = function() {
 ?>
 <!--Thank You Pages Not Allowed for menu-->
 
-<?php if ( !in_array( $page_id, array( 296, 405, 408, 299, 300, 301, 302, 303, 304 ) ) ){ ?>
+<?php if ( !in_array( $page_id, array( 296, 405, 408, 412, 410, 414, 416, 299, 300, 301, 302, 303, 304 ) ) ){ ?>
 <div class='menu-cover'>
 	<div class='top-menu'>
         <ul>	
@@ -161,9 +161,9 @@ window.onload = function() {
 	<div id='promotionsx-sub' class='sub-promotion-position'>
 		<ul id="promo-sub">
 		   <li class="mod-width2"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/win-a-bed">Win A Bed</a></li>
-		   <li class="mod-width2"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/forms/free-pillow">Free Pillow</a></li>
-		   <li class="mod-width2"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/forms/free-sleep-report">Free Sleep Report</a></li>
-		   <li class="mod-width2"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/forms/free-news-letter">Free News Letter</a></li>
+		   <li class="mod-width2"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/free-pillow">Free Pillow</a></li>
+		   <li class="mod-width2"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/free-sleep-report">Free Sleep Report</a></li>
+		   <li class="mod-width2"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/newsletter">Newsletter</a></li>
 		</ul>
 	</div>
 </div>	
@@ -182,13 +182,13 @@ echo adjustFontSize();
 <div id='countdown_dashboard'></div>
 <?php
 	//Remove any logo
-	} else if ( in_array( $page_id, array( 297, 405, 408 ) ) ){
+	} else if ( in_array( $page_id, array( 297, 408 ) ) ){
 		echo winABed2();
-	} else if ( in_array( $page_id, array( 299 ) ) ){
+	} else if ( in_array( $page_id, array( 299, 410) ) ){
 		echo freePillow();
-	} else if ( in_array( $page_id, array( 301 ) ) ){
+	} else if ( in_array( $page_id, array( 301, 414 ) ) ){
 		echo freeSleepReport();
-	} else if ( in_array( $page_id, array( 303 ) ) ){
+	} else if ( in_array( $page_id, array( 303, 416) ) ){
 		echo freeNewsLetter();
 	}
 	

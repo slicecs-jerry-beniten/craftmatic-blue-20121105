@@ -83,7 +83,7 @@
     <?php } else { ?>
     <div style='float:left;width:200px;'>
     	<!--about-us -->
-        <?php if ( !in_array( $page_id, array(17, 296, 405, 408, 299, 300, 301, 302, 303, 304) ) ){ echo winABed(); } ?>
+        <?php if ( !in_array( $page_id, array(17, 296, 405, 408, 410, 412, 414, 416, 299, 300, 301, 302, 303, 304) ) ){ echo winABed(); } ?>
         <div class='clear'></div>
         <?php if( $page_id == 12 ) { echo customerStories(); ?>
         <div class='clear'></div>        

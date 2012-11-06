@@ -255,15 +255,15 @@ $xx("#postal_code").change(function(){
 
 
 $xx("#pillow").click(function(){
-	location.href="http://"+serverName+"/forms/free-pillow";
+	location.href="http://"+serverName+"/free-pillow";
 });
 
 $xx("#news").click(function(){
-	location.href="http://"+serverName+"/forms/free-news-letter/";
+	location.href="http://"+serverName+"/newsletter/";
 });
 
 $xx("#winabed").click(function(){
-	location.href="http://"+serverName+"/forms/win-a-bed";
+	location.href="http://"+serverName+"/win-a-bed";
 });
 
 
