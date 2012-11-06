@@ -131,7 +131,7 @@ window.onload = function() {
 ?>
 <!--Thank You Pages Not Allowed for menu-->
 
-<?php if ( !in_array( $page_id, array( 296, 405, 299, 300, 301, 302, 303, 304 ) ) ){ ?>
+<?php if ( !in_array( $page_id, array( 296, 405, 408, 299, 300, 301, 302, 303, 304 ) ) ){ ?>
 <div class='menu-cover'>
 	<div class='top-menu'>
         <ul>	
@@ -182,7 +182,7 @@ echo adjustFontSize();
 <div id='countdown_dashboard'></div>
 <?php
 	//Remove any logo
-	} else if ( in_array( $page_id, array( 297, 405 ) ) ){
+	} else if ( in_array( $page_id, array( 297, 405, 408 ) ) ){
 		echo winABed2();
 	} else if ( in_array( $page_id, array( 299 ) ) ){
 		echo freePillow();
