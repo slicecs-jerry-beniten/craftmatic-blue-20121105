@@ -131,7 +131,7 @@ window.onload = function() {
 ?>
 <!--Thank You Pages Not Allowed for menu-->
 
-<?php if ( !in_array( $page_id, array( 296, 297, 299, 300, 301, 302, 303, 304 ) ) ){ ?>
+<?php if ( !in_array( $page_id, array( 296, 405, 299, 300, 301, 302, 303, 304 ) ) ){ ?>
 <div class='menu-cover'>
 	<div class='top-menu'>
         <ul>	
@@ -160,7 +160,7 @@ window.onload = function() {
 <div id='promotionsx' class='balance promo-sub-hide'>
 	<div id='promotionsx-sub' class='sub-promotion-position'>
 		<ul id="promo-sub">
-		   <li class="mod-width2"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/forms/win-a-bed">Win A Bed</a></li>
+		   <li class="mod-width2"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/win-a-bed">Win A Bed</a></li>
 		   <li class="mod-width2"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/forms/free-pillow">Free Pillow</a></li>
 		   <li class="mod-width2"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/forms/free-sleep-report">Free Sleep Report</a></li>
 		   <li class="mod-width2"><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>/forms/free-news-letter">Free News Letter</a></li>
@@ -182,7 +182,7 @@ echo adjustFontSize();
 <div id='countdown_dashboard'></div>
 <?php
 	//Remove any logo
-	} else if ( in_array( $page_id, array( 297 ) ) ){
+	} else if ( in_array( $page_id, array( 297, 405 ) ) ){
 		echo winABed2();
 	} else if ( in_array( $page_id, array( 299 ) ) ){
 		echo freePillow();
