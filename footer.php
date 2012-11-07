@@ -70,12 +70,12 @@
 		<?php
 		   $serverName = $_SERVER["SERVER_NAME"];
 		   echo "<a href = 'http://".$serverName."' class='footer-links'> &nbsp;  Home </a> <i class='headerDivider1'></i>
-				<a href = 'http://".$serverName."/about' class='footer-links'> &nbsp;  About </a>
+				<a href = 'http://".$serverName."/craftmatic-australia/' class='footer-links'> &nbsp;  About </a>
 				<a href = 'http://".$serverName."/adjustable-beds' class='footer-links'> &nbsp;  Adjustable Beds </a>
 				<a href = 'http://".$serverName."/promotions' class='footer-links'> &nbsp;  Promotions </a>
-				<a href = 'http://".$serverName."/customer-feedback' class='footer-links'> &nbsp;  Customer Feedback </a>
+				<a href = 'http://".$serverName."/craftmatic-testimonials/' class='footer-links'> &nbsp;  Customer Feedback </a>
 				<a href = 'http://".$serverName."/blog' class='footer-links'> &nbsp;  Craftmatic Blog </a>
-				<a href = '#' class='footer-links'> &nbsp;  Sitemap </a>
+				<a href = 'http://".$serverName."/sitemap.xml' class='footer-links'> &nbsp;  Sitemap </a>
 				<a href='#privacy' name='modal' class='footer-links'> &nbsp;  Privacy </a>
 				<a href='#dialog' name='modal' class='footer-links'> &nbsp;  Terms & Conditions </a>
 				<a href = 'http://".$serverName."/contact-us' class='footer-links'> &nbsp;  Contact Us </a>";
