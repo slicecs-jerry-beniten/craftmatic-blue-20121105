@@ -76,8 +76,8 @@
 				<a href = 'http://".$serverName."/craftmatic-testimonials/' class='footer-links'> &nbsp;  Customer Feedback </a>
 				<a href = 'http://".$serverName."/blog' class='footer-links'> &nbsp;  Craftmatic Blog </a>
 				<a href = 'http://".$serverName."/sitemap.xml' class='footer-links'> &nbsp;  Sitemap </a>
-				<a href='#privacy' name='modal' class='footer-links'> &nbsp;  Privacy </a>
-				<a href='#dialog' name='modal' class='footer-links'> &nbsp;  Terms & Conditions </a>
+				<a href = 'http://".$serverName."/privacy-policy' class='footer-links'> &nbsp;  Privacy </a>
+				<a href = 'http://".$serverName."/terms-and-conditions' class='footer-links'> &nbsp;  Terms & Conditions </a>
 				<a href = 'http://".$serverName."/contact-us' class='footer-links'> &nbsp;  Contact Us </a>";
 		?>
 			</div>
