@@ -31,10 +31,12 @@
 					
 					</div>
 					<div style='text-align:left;padding-left:100px'>
+						<h2>
 						<p style='padding-top:20px;color:#005AA2;font-weight:bold;font-size:20px;'><a  style='text-decoration:none;color:#005AA2' href='".$post_name."'>".$post_title."</a>
 							<div  style='border-top:1px solid #005AA2;margin-top:-20px;margin-left:-1px;width:550px;'></div>
 							<div>by: Craftmatic Australia</div>
 						</p>
+						</h2>
 						<div class='text' style='width:550px;text-align:justify;font-size:13px;'>
 					     ".substr ( $post_content , 0 ,  500  )."
 						</div>
@@ -98,9 +100,9 @@
 				<div style='color:#005AA2;text-align:center' class='header-standard'>
 					Claim Your Free Premium-Quality Pillow
 				</div>
-				<div style='color:#84BD00;text-align:center;font-size:18pt;font-family:arial;margin-top:1px;'>
+				<h2 style='color:#84BD00;text-align:center;font-size:18pt;font-family:arial;margin-top:1px;'>
 					following a No Obligation In-Home Sales presentation
-				</div>		
+				</h2>		
 				<br />
 				<div style='float:left'>
 				<div style='margin-left:20px;float:left;line-height:20px;text-align:left;color:#414241;width:520px;' class='body-standard'>
@@ -363,10 +365,10 @@ $data="
 				<div style='color:#005AA2;text-align:center' class='header-standard'>
 					Claim Your FREE Sleep Report
 				</div>
-				<div style='color:#84BD00;text-align:center;font-size:18pt;font-family:arial;margin-top:1px;'>
+				<h2 style='color:#84BD00;text-align:center;font-size:18pt;font-family:arial;margin-top:1px;'>
 					<?php //'Good Beds for Bad Backs – A Guide to Better Sleep' Sign up for a Free Sleep Report. ?>
 					'Good Beds for Bad Backs – A Guide to Better Sleep'
-				</div>				
+				</h2>				
 				<br />	
 		</div>
 		<div class='body-standard' style='color:#414241;margin-left:auto;margin-right:auto;width:900px;'>
@@ -519,7 +521,7 @@ $data="
 								popular, therapeutic, adjustable
 								massage bed - over 1 million sold...
 								<br />
-								<a style='font-weight:bold;text-decoration:none;color:#005aa1' href='http://".$_SERVER['SERVER_NAME']."/forms/free-pillow/'>*Receive a FREE premium quality pillow</a>
+								<a style='font-weight:bold;text-decoration:none;color:#005aa1' href='http://".$_SERVER['SERVER_NAME']."/free-pillow/'>*Receive a FREE premium quality pillow</a>
 							</div>
 					    	<div>
 								<a href='contact-us' style='margin-top:-130px;margin-left:330px;text-decoration:none;float:left'><div class='rep'></div></a>
@@ -542,7 +544,7 @@ $data="
 					</div>
 					
 					<div style='margin-left:8px;color:#005aa1;font-weight:bold'>
-					<a style='text-decoration:none;color:#005aa1' href='http://".$_SERVER['SERVER_NAME']."/forms/free-pillow/'>*Receive a FREE premium quality pillow</a>
+					<a style='text-decoration:none;color:#005aa1' href='http://".$_SERVER['SERVER_NAME']."/free-pillow/'>*Receive a FREE premium quality pillow</a>
 					</div>
 					</div>
 					
@@ -562,7 +564,7 @@ $data="
         $data="
 			<div style='margin-left:auto;margin-right:auto;width:1000px;'>
 				<a href='http://".$_SERVER['SERVER_NAME']."'><div id='home' class='logo'></div></a>
-				<a href='http://".$_SERVER['SERVER_NAME']."/forms/free-sleep-report/'><div class='bed'></div></a>
+				<a href='http://".$_SERVER['SERVER_NAME']."/free-sleep-report/'><div class='bed'></div></a>
 				<div style='position:relative'><a href='http://".$_SERVER['SERVER_NAME']."/contact-us' style='text-decoration:none'><div class='call'></div></a></div>
 			</div>
         ";
@@ -587,7 +589,7 @@ $data="
 					<div style='float:left'> 
 						<div class='reason' style='width:320px;margin-right:20px'>
 							<div class='green-corner' style='color:white;background-color:#77B800;height:60px;'>
-							<h2 style='font-weight:normal;margin-top:-1px;'><a href='blog-show-more' style='text-decoration:none;color:white'><center style='font-size:15pt;font-family:tahoma;padding-top:-100px'>Benefits of a <br />Craftmatic Adjustable Bed</center></a></h2></div>								<div  style='color:#414241;background-color:#ffffff;height:245px;'>
+							<h1 style='font-weight:normal;margin-top:-1px;'><a href='/craftmatic_blog/craftmatic-bed-benefits-of-soothing-massage-options/' style='text-decoration:none;color:white'><center style='font-size:15pt;font-family:tahoma;padding-top:-100px'>Benefits of a <br />Craftmatic Adjustable Bed</center></a></h1></div>								<div  style='color:#414241;background-color:#ffffff;height:245px;'>
 								<table style='font-family:arial;margin-left:12px' cellpadding=0 cellspacing=0 border=0>
 									<tr><td class='check-height'></td></tr>
 									<tr>
@@ -623,7 +625,7 @@ $data="
 					<div style='float:left'> 
 						<div class='reason' style='width:320px;margin-right:20px'>
 							<div class='green-corner' style='color:white;background-color:#77B800;height:60px;'>
-							<h2 style='font-weight:normal;margin-top:-1px;'><a href ='products' style='text-decoration:none;color:white'><center style='font-size:15pt;font-family:tahoma;padding-top:0px'>Features of a <br />Crafmatic Adjustable Bed</a></h2></center></div>
+							<h2 style='font-weight:normal;margin-top:-1px;'><a href ='http://".$_SERVER['SERVER_NAME']."/adjustable-beds/' style='text-decoration:none;color:white'><center style='font-size:15pt;font-family:tahoma;padding-top:0px'>Features of a <br />Craftmatic Adjustable Bed</a></h2></center></div>
 								<div  style='color:#414241;background-color:#ffffff;height:245px;'>
 								<table style='font-family:arial;margin-left:12px' cellpadding=0 cellspacing=0 border=0>
 									<tr><td class='check-height'></td></tr>
@@ -659,23 +661,23 @@ $data="
 					</div>
 					<div style='float:left'> 
 						<div class='reason' style='width:320px;'>
-							<div class='green-corner' style='color:white;background-color:#77B800;height:60px;'><div style='position:relative'><div class='whatsnew-icon'></div></div><h2 style='font-weight:normal;margin-top:-1px;'><a href='promos-events' style='text-decoration:none;color:white'><center style='font-family:tahoma;font-size:15pt;padding-top:17px;margin-left:60px;'>Promotions</center></a></h2></div>
+							<div class='green-corner' style='color:white;background-color:#77B800;height:60px;'><div style='position:relative'><div class='whatsnew-icon'></div></div><div style='font-weight:normal;margin-top:-1px;'><a href='http://".$_SERVER['SERVER_NAME']."/promotions' style='text-decoration:none;color:white'><center style='font-family:tahoma;font-size:15pt;padding-top:17px;margin-left:60px;'>Promotions</center></a></div></div>
 							<div  style='background-color:#ffffff'>
 								<table cellpadding=0 cellspacing=0 border=0>
 									<tr>
-										<td id='winabed'><div style='margin-left:20px;font-size:14pt;font-family:arial;text-decoration:none;'>Win A Bed</div><div style='position:relative'><div  class='wab2'></div></div></td>
+										<td id='winabed'><h3 style='margin-left:20px;font-size:12pt;font-family:arial;text-decoration:none;'>Win A Bed</div><div style='position:relative'><div  class='wab2'></h3></div></td>
 									</tr>	
 									<tr>
 										<td style='border-top:2px solid gray;width:200px;'></td>
 									</tr>
 									<tr>
-										<td id='news'><div style='margin-left:20px;font-size:14pt;font-family:arial;text-decoration:none;'>Join Our Newsletter</div><div style='position:relative'><div  class='news_letter_1'></div></div></td>
+										<td id='news'><h3 style='margin-left:20px;font-size:12pt;font-family:arial;text-decoration:none;'>Join Our Newsletter</div><div style='position:relative'><div  class='news_letter_1'></h3></div></td>
 									</tr>
 									<tr>
 										<td style='border-top:2px solid gray;width:200px;'></td>
 									</tr>	
 									<tr>
-										<td id='pillow'><div style='margin-left:20px;font-size:14pt;font-family:arial;text-decoration:none;'>Get A Free Pillow</div><div style='position:relative'><div  class='pillow_1'></div></div></td>
+										<td id='pillow'><h3 style='margin-left:20px;font-size:12pt;font-family:arial;text-decoration:none;'>Get A Free Pillow</h3><div style='position:relative'><div  class='pillow_1'></div></div></td>
 									</tr>							
 								</table>
 							</div>

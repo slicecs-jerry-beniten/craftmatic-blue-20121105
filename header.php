@@ -15,12 +15,12 @@
 	wp_title( '|', true, 'right' );
 
 	// Add the blog name.
-	bloginfo( 'name' );
+	//bloginfo( 'name' );
 
 	// Add the blog description for the home/front page.
-	$site_description = get_bloginfo( 'description', 'display' );
-	if ( $site_description && ( is_home() || is_front_page() ) )
-		echo " | $site_description";
+	//$site_description = get_bloginfo( 'description', 'display' );
+	//if ( $site_description && ( is_home() || is_front_page() ) )
+		//echo " | $site_description";
 
 	?>
 </title>
@@ -150,8 +150,8 @@ window.onload = function() {
 <div id='adjustable-beds' class='balance product-sub-hide'>
 	<div id='adjustable-beds-sub' class='sub-product-position'>
 		<ul id="product-sub">
-		   <li class="mod-width1"><a href="../craftmatic-model-one">Model I</a></li>
-		   <li class="mod-width1"><a href="../craftmatic-model-two">Model II</a></li>
+		   <li class="mod-width1"><a href="../craftmatic-model-i">Model I</a></li>
+		   <li class="mod-width1"><a href="../craftmatic-model-ii">Model II</a></li>
 		   <li class="mod-width1"><a href="../craftmatic-monaco">Monaco</a></li>
 		</ul>
 	</div>
@@ -184,7 +184,7 @@ echo adjustFontSize();
 	//Remove any logo
 	} else if ( in_array( $page_id, array( 297, 408 ) ) ){
 		echo winABed2();
-	} else if ( in_array( $page_id, array( 299, 410) ) ){
+	} else if ( in_array( $page_id, array( 299, 412) ) ){
 		echo freePillow();
 	} else if ( in_array( $page_id, array( 301, 414 ) ) ){
 		echo freeSleepReport();

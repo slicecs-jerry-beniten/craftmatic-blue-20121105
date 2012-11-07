@@ -6,7 +6,7 @@ var serverName = location.hostname.toString();
 	var basket = .99;
 	
 	$xx('#wabTransfer').click(function(){
-		location.href="http://"+serverName+"/forms/win-a-bed";
+		location.href="http://"+serverName+"/win-a-bed";
 	});
 	
 	$xx("#add").click(function(){
@@ -965,11 +965,11 @@ $xx('.page-item-17, #promotionsx').mouseout(function(){
 	});
 	
 	$xx("#xslideshow").click(function(){
-		window.location="http://"+serverName+"/adjustable-beds/craftmatic-model-one/";
+		window.location="http://"+serverName+"/adjustable-beds/craftmatic-model-i/";
 	});
 	
 	$xx("#xslideshow2").click(function(){
-		window.location="http://"+serverName+"/adjustable-beds/craftmatic-model-two/";
+		window.location="http://"+serverName+"/adjustable-beds/craftmatic-model-ii/";
 	});
 	
 	$xx("#xslideshow3").click(function(){
@@ -1038,7 +1038,7 @@ $xx('.page-item-17, #promotionsx').mouseout(function(){
 	});
 
 	$xx("#pslideshow4").click(function(){
-		window.location="free-news-letter";
+		window.location="newsletter";
 	});
 	 
 	
