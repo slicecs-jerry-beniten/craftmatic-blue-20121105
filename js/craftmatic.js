@@ -965,11 +965,11 @@ $xx('.page-item-17, #promotionsx').mouseout(function(){
 	});
 	
 	$xx("#xslideshow").click(function(){
-		window.location="http://"+serverName+"/adjustable-beds/craftmatic-model-i/";
+		window.location="http://"+serverName+"/adjustable-beds/craftmatic-model-1/";
 	});
 	
 	$xx("#xslideshow2").click(function(){
-		window.location="http://"+serverName+"/adjustable-beds/craftmatic-model-ii/";
+		window.location="http://"+serverName+"/adjustable-beds/craftmatic-model-2/";
 	});
 	
 	$xx("#xslideshow3").click(function(){

@@ -150,8 +150,8 @@ window.onload = function() {
 <div id='adjustable-beds' class='balance product-sub-hide'>
 	<div id='adjustable-beds-sub' class='sub-product-position'>
 		<ul id="product-sub">
-		   <li class="mod-width1"><a href="../craftmatic-model-i">Model I</a></li>
-		   <li class="mod-width1"><a href="../craftmatic-model-ii">Model II</a></li>
+		   <li class="mod-width1"><a href="../craftmatic-model-1">Model I</a></li>
+		   <li class="mod-width1"><a href="../craftmatic-model-2">Model II</a></li>
 		   <li class="mod-width1"><a href="../craftmatic-monaco">Monaco</a></li>
 		</ul>
 	</div>
