@@ -61,38 +61,6 @@
 ?>
 </head>
 <body>
-<script type="text/javascript">
-<?php if(is_front_page()){ ?>
-window.onload = function() {
-	
-		//Get the screen height and width
-		var maskHeight = $xx(document).height();
-		var maskWidth = $xx(window).width();
-	
-		//Set heigth and width to mask to fill up the whole screen
-		$xx('#xxpromo').css({'width':maskWidth,'height':maskHeight});
-		
-		//transition effect		
-		$xx('#xxpromo').fadeIn(100);	
-		$xx('#xxpromo').fadeTo("slow",.8);	
-		$xx('#result').fadeIn(1000);	
-		$xx('#result').fadeTo("slow",1);	
-	
-		//Get the window height and width
-		var winH = $xx(window).height();
-		var winW = $xx(window).width();
-              
-		//Set the popup window to center
-		//$xx(id).css('top',  winH/2-$xx(id).height()/2);
-		//$xx(id).css('left', winW/2-$xx(id).width()/2);
-	
-		//transition effect
-		//$xx(id).fadeIn(2000); 
-    // open a welcome message as soon as the window loads
-
-};
-<?php } ?>
-</script>
 <?php echo lightBox(); ?>
 
 		<div style="margin-top:108px;position:absolute;">

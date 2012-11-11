@@ -565,6 +565,10 @@ ul li a:hover
 	float:left;
 }
 
+.hide{
+	display:none;
+}
+
 .side-sleeping{
 	background: url('images/side-sleeping.png');
 	background-repeat:no-repeat;
@@ -690,6 +694,12 @@ ul li a:hover
 	z-index:1;
 	float:left;
 	
+}
+
+.video-title{
+	font-style:italic;
+	font-weight:bold;
+	font-size:14pt;
 }
 /*
  * 
