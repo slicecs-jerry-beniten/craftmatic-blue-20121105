@@ -1,9 +1,70 @@
 $xx=jQuery.noConflict();
 
 $xx(document).ready(function() {
+
+	$xx(".movie3").click(function(){
+		$xx("#movie3").show().removeClass('hide');;
+		$xx(".movie3").hide();
+	});
+	
+	$xx("#replayMovie3").click(function(){
+		$xx("#movie3").html("<div id='movie3' style='position:absolute;'><object   height='400' width='700'><param name='movie' value='/videos/TESTIMONIAL3.swf'><param name='scale' value='exactfit'><param name='play' value='true' /> <param name='quality' value='high'>  <embed src='/videos/TESTIMONIAL3.swf' height='400' width='700'></embed></object><div id='replayMovie3'><b>Stop</b></div></div>");
+		$xx(".movie3").show()
+	});	
+	
+	$xx(".movie4").click(function(){
+		$xx("#movie4").show();
+		$xx(".movie4").hide();
+	});
+	
+	$xx("#replayMovie4").click(function(){
+		$xx("#movie4").hide();
+		$xx(".movie4").show();
+	});
+	
+	$xx(".movie5").click(function(){
+		$xx("#movie5").show();
+		$xx(".movie5").hide();
+	});
+	
+	$xx("#replayMovie5").click(function(){
+		$xx("#movie5").hide();
+		$xx(".movie5").show();
+	});
+	
+	$xx(".movie6").click(function(){
+		$xx("#movie6").show();
+		$xx(".movie6").hide();
+	});
+	
+	$xx("#replayMovie6").click(function(){
+		$xx("#movie6").hide();
+		$xx(".movie6").show();
+	});
+	
+	$xx(".movie7").click(function(){
+		$xx("#movie7").show();
+		$xx(".movie7").hide();
+	});
+	
+	$xx("#replayMovie7").click(function(){
+		$xx("#movie7").hide();
+		$xx(".movie7").show();
+	});
+	
+	$xx(".movie8").click(function(){
+		$xx("#movie8").show();
+		$xx(".movie8").hide();
+	});
+	
+	$xx("#replayMovie8").click(function(){
+		$xx("#movie8").hide();
+		$xx(".movie8").show();
+	});
 	
 var serverName = location.hostname.toString();
 	var basket = .99;
+	
 	
 	$xx('#wabTransfer').click(function(){
 		location.href="http://"+serverName+"/win-a-bed";
